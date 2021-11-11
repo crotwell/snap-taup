@@ -1,6 +1,6 @@
 name: taup
 title: The TauP Toolkit
-version: 2.5.1-alpha.2
+version: 2.5.1
 summary: "The TauP Toolkit: Flexible Seismic Travel-Time and Raypath Utilities"
 description: |
   The TauP Toolkit is a seismic travel time calculator. In addition to travel
@@ -11,8 +11,8 @@ description: |
   More info and docs at https://www.seis.sc.edu/TauP
 base: core18
 confinement: strict
-#grade: stable
-grade: devel
+grade: stable
+#grade: devel
 apps:
   taup:
     command: bin/taup
@@ -24,8 +24,8 @@ parts:
   taup:
     plugin: gradle
     source: https://github.com/crotwell/taup.git
-#    source-tag: v2.5.0
-    source-branch: master
+    source-tag: v2.5.1
+    #    source-branch: master
     gradle-version: '7.1.1'
     gradle-options: [explodeBin]
     override-build: |
