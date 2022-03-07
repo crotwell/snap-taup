@@ -24,8 +24,8 @@ parts:
   taup:
     plugin: gradle
     source: https://github.com/crotwell/taup.git
-    source-tag: v2.6.0
-    #    source-branch: master
+      #source-tag: v2.6.0
+    source-branch: master
     gradle-version: '7.4.0'
     gradle-options: [explodeBin]
     override-build: |
