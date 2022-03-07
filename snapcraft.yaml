@@ -1,6 +1,6 @@
 name: taup
 title: The TauP Toolkit
-version: 2.6.0
+version: 2.6.1-beta
 summary: "The TauP Toolkit: Flexible Seismic Travel-Time and Raypath Utilities"
 description: |
   The TauP Toolkit is a seismic travel time calculator. In addition to travel
