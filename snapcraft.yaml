@@ -36,3 +36,5 @@ parts:
       cp -f build/explode/lib/* $SNAPCRAFT_PART_INSTALL/lib/.
     build-packages:
       - unzip
+      - ca-certificates
+      - ca-certificates-java
