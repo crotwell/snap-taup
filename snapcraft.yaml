@@ -34,6 +34,8 @@ parts:
       mkdir -p $SNAPCRAFT_PART_INSTALL/lib
       cp -f build/explode/bin/* $SNAPCRAFT_PART_INSTALL/bin/.
       cp -f build/explode/lib/* $SNAPCRAFT_PART_INSTALL/lib/.
+      rm -vf usr/lib/jvm/java-11-openjdk-*/lib/security/blacklisted.certs
+      # above is bad symlink in openjdk-11
     build-packages:
       - unzip
       - ca-certificates
