@@ -11,8 +11,8 @@ description: |
   More info and docs at https://www.seis.sc.edu/TauP
 base: core18
 confinement: strict
-#grade: stable
-grade: devel
+grade: stable
+#grade: devel
 apps:
   taup:
     command: bin/taup
