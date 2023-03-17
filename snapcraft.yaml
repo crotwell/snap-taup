@@ -36,7 +36,7 @@ parts:
       cp -f build/explode/lib/* $SNAPCRAFT_PART_INSTALL/lib/.
     override-prime: |
       snapcraftctl prime
-      #rm -vf usr/lib/jvm/java-11-openjdk-*/lib/security/blacklisted.certs
+      rm -vf usr/lib/jvm/java-11-openjdk-*/lib/security/blacklisted.certs
       # above is bad symlink in openjdk-11
     build-packages:
       - unzip
