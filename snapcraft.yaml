@@ -9,7 +9,7 @@ description: |
   can calculate times for virtually any seismic phase with a phase parser.
   It is written in Java so it should run on any Java enabled platform.
   More info and docs at https://www.seis.sc.edu/TauP
-base: core22
+base: core18
 confinement: strict
 #grade: stable
 grade: devel
@@ -26,7 +26,7 @@ parts:
     source: https://github.com/crotwell/taup.git
     #source-tag: v2.6.1
     source-branch: main
-    gradle-version: '8.0.1'
+    gradle-version: '7.4.0'
     gradle-options: [explodeBin]
     override-build: |
       snapcraftctl build
