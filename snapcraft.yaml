@@ -25,8 +25,8 @@ parts:
     plugin: gradle
     source: https://github.com/crotwell/taup.git
     #source-tag: v2.6.1
-    source-branch: main
-    gradle-version: '7.4.0'
+    source-branch: v3.0_dev
+    gradle-version: '8.3.0'
     gradle-options: [explodeBin]
     override-build: |
       snapcraftctl build
